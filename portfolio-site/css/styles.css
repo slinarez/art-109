@@ -11,37 +11,33 @@ Alpine #bd9332
 
 /* GLOBAL STYLES
 -----------------------------------------------*/
+/*
+    https://www.paulirish.com/2012/box-sizing-border-box-ftw/ 
+ */
+ html{
+    box-sizing: border-box;
+ }
+ *, *:before, *:after {
+    box-sizing:inherit;
+ }
+
+ html, body{
+    height: 100%;
+ }
 
 body {
-
     background: #f1eae6;
-
+    margin: 0;
 } 
-
-/* HOME
------------------------------------------------*/  
-
-.home {
-
-    background: url(../images/bg-home-office-studio.jpg) no-repeat;
-    background-size: cover;
-    
-}
-
-.home .content-wrapper {
-
-   background: rgb(255 255 255 / 0.9); 
-
-}
 
 /* links */
 
 a {
-    color: #daae95;
+    color: #997966;
 }
 
 a:hover {
-    color:#913040;
+    color:#5f202a;
 }
 
 footer a {
@@ -56,14 +52,64 @@ footer a:hover {
     background: #201818; 
 }
 
+.content-wrapper {
+    margin: 0 auto;
+    padding: 30px;
+    width: 900px;
+}
+
+/* HOME
+-----------------------------------------------*/  
+
+.home {
+    background: url(../images/bg-home-office-studio.jpg) no-repeat;
+    background-size: cover; 
+}
+
+.home .content-wrapper {
+   background: rgb(255 255 255 / 0.9); 
+}
 
 
 /* RESUME
 -----------------------------------------------*/
 
+.resume header::before {
+    background: url(../images/bg-home-office-studio.jpg) center;
+    background-size: cover;
+    content: "";
+    display: block;
+    height: 375px;
+}
+
+.resume-section {
+    margin-bottom: 50px;
+}
+.resume-section h2 {
+    border-bottom: 2px dashed #201818; 
+}
+
+.download-link {
+    position: fixed;
+    top: 5px;
+    left: 5px;
+}
+
 
 /* Profile
 -----------------------------------------------*/
+
+.project-item {
+    display: flow-root;
+    margin: 30px 0;
+
+}
+
+.project-item img {
+    width: 300px;
+    float: left;
+    margin-right: 20px;
+}
 
 
 /* Projects
@@ -82,8 +128,18 @@ footer a:hover {
 -----------------------------------------------*/
 
 footer {
-
     background: #201818;
     color:antiquewhite;
+}
 
+.socials {
+    list-style: none;
+    padding: 0;
+}
+
+.socials li{
+    display: inline-block;
+}
+.socials img {
+    width: 32px;
 }
