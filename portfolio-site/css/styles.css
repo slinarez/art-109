@@ -1,0 +1,89 @@
+/* 
+color pallete
+
+Cameo #d7b29d
+Cocoa Brown #201818
+Stiletto #913040
+Alpine #bd9332
+
+*/
+
+
+/* GLOBAL STYLES
+-----------------------------------------------*/
+
+body {
+
+    background: #f1eae6;
+
+} 
+
+/* HOME
+-----------------------------------------------*/  
+
+.home {
+
+    background: url(../images/bg-home-office-studio.jpg) no-repeat;
+    background-size: cover;
+    
+}
+
+.home .content-wrapper {
+
+   background: rgb(255 255 255 / 0.9); 
+
+}
+
+/* links */
+
+a {
+    color: #daae95;
+}
+
+a:hover {
+    color:#913040;
+}
+
+footer a {
+    color: #913040;
+}
+
+footer a:hover {
+    color: #d7b29d;
+}
+
+.btn {
+    background: #201818; 
+}
+
+
+
+/* RESUME
+-----------------------------------------------*/
+
+
+/* Profile
+-----------------------------------------------*/
+
+
+/* Projects
+-----------------------------------------------*/
+
+
+/* Work Experience
+-----------------------------------------------*/
+
+
+/* Education
+-----------------------------------------------*/
+
+
+/* FOOTER
+-----------------------------------------------*/
+
+footer {
+
+    background: #201818;
+    color:antiquewhite;
+
+}
