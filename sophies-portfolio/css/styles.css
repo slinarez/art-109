@@ -184,7 +184,7 @@ footer a:hover {
 -----------------------------------------------*/  
 
 .home {
-    background: url(../images/bg-home-office-studio.jpg) no-repeat;
+    background: url() no-repeat;
     background-size: cover; 
     display: flex;
     flex-direction: column;
@@ -222,7 +222,7 @@ footer a:hover {
 }
 
 .resume-section {
-    margin-bottom: 50px;
+    margin-bottom: 70px;
 }
 .resume-section h2 {
     border-bottom: 2px dashed #201818; 
