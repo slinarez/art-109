@@ -28,6 +28,7 @@ Alpine #bd9332
 
 body {
     background: #f1eae6;
+
     margin: 0;
     font-family: "Gruppo", sans-serif;
     font-size: 1.5rem;
@@ -40,7 +41,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: #28a745;
+    background-color: rgb(196, 124, 157);
     /* Green background */
     color: #fff;
 }
@@ -103,7 +104,8 @@ body {
         position: absolute;
         top: 60px;
         left: 0;
-        background-color: #28a745;
+        border-radius: 12px;
+        background-color: rgb(196, 124, 157);
         /* Green background for mobile view */
     }
 
@@ -135,12 +137,17 @@ h1{
 }
 
 h2{
-    font-size: 3.6rem;
+    padding: 3px;
+    font-size: 3rem;
 
 }
 
 h3{
     font-size:2.4;
+}
+
+p {
+    font-size: 20px;
 }
 
 /* links */
@@ -184,7 +191,7 @@ footer a:hover {
 -----------------------------------------------*/  
 
 .home {
-    background: url() no-repeat;
+    background: url(../images/walllpaper.jpg) no-repeat;
     background-size: cover; 
     display: flex;
     flex-direction: column;
@@ -196,7 +203,8 @@ footer a:hover {
 
 
 .content-bg {
-    background: rgb(255 255 255 / 0.9);
+    background:rgba(211, 240, 199, 0.95);
+    border-radius: 12px;
     padding: 30px;
 }
 
@@ -214,11 +222,11 @@ footer a:hover {
 -----------------------------------------------*/
 
 .resume header::before {
-    background: url(../images/bg-home-office-studio.jpg) center;
+    /* background: url(../images/bg-home-office-studio.jpg) center; */
     background-size: cover;
     content: "";
     display: block;
-    height: 375px;
+    height: 75px;
 }
 
 .resume-section {
@@ -264,7 +272,7 @@ footer a:hover {
 }
 
 .project-item img {
-    width: 300px;
+    width: 500px;
 }
 
 @media screen and (min-width:860px ) {
