@@ -1,0 +1,73 @@
+ 
+ 
+html {
+   box-sizing: border-box;
+   font-size: 62.5%; 
+}
+
+
+*,
+*:before,
+*:after {
+   box-sizing: inherit;
+   margin: 0;
+   padding: 0;
+}
+
+
+html,
+body {
+   height: 100%;
+}
+
+
+body {
+    font-size: 1.6rem;
+   /* font-size 1.6rem is now the same as 16px */
+   line-height: 1.6;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   background-color: rgb(104, 73, 102);
+   
+}
+
+img {
+
+    display: block;
+    padding: 50px;
+    margin: 0 auto;
+}
+
+.question {
+    color: rgb(87, 3, 3);
+    text-align: center;
+    font-size: 3rem;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.option-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+
+}
+
+.buttons {
+
+  background-color: rgb(95, 10, 74);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  margin: 12px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  
+
+}
+
