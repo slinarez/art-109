@@ -5,7 +5,7 @@ html {
 }
 
 body{
-    background-color: rgb(173,216,230);
+    background-color: rgb(163, 216, 187);
 }
 
 h1 {
@@ -17,7 +17,7 @@ h1 {
 
 p {
     margin:auto;
-    padding: 20px;
+    padding: 50px;
     border: 5px;
     font-size: 20px;
 }
